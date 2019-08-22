@@ -10,6 +10,6 @@ Objetivo desses filtros é:
 - Largura de banda do canal: 7,5 KHz
 - FI em 375 KHz, proposta de filtro
 
-![Circuito do Primeiro Filtro](WideBandFilter_circuit.png)
+![Circuito do Primeiro Filtro](WideBandFilter_circuit.PNG)
 
 ![Circuito do Primeiro Filtro](WideBandFilter_plot.png)
