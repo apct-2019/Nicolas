@@ -20,3 +20,11 @@ Filtro passivo, do tipo chebyshev. Este filtro foi escolhido como passivo pois d
 ![Circuito do Primeiro Filtro](WideBandFilter_circuit.PNG)
 
 ![Circuito do Primeiro Filtro](WideBandFilter_plot.png)
+
+### Segundo filtro
+
+Filtro ativo, já que a potência de entrada é controlada pelo resto do circuito. Com alta seletividade, centrado em 455KHz. Haverá uma chave de RF para alternar entre os filtros, definindo assim a largura do canal.
+
+![Filtros escolhidos](active filter datasheet.PNG)
+
+![Resposta em freqência dos filtros](active filter.PNG)
