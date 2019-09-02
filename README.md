@@ -8,7 +8,7 @@ Objetivo desses filtros é:
 
 ### Especificações 
 
-- Range de frequência : 108 a 136,9917 MHz
+- Range de frequência (faixa passante do primeiro filtro) : 108 a 136,9917 MHz
 - Espaçamento entre os canais : 8.33 ou 25 KHz (seletividade de 60dB)
 - Largura de banda do canal: 3 ou 7,5 KHz (seletividade de 6dB)
 - FI em 455 KHz
