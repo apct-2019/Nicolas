@@ -17,9 +17,11 @@ Objetivo desses filtros é:
 
 Filtro passivo, do tipo chebyshev. Este filtro foi escolhido como passivo pois deve ser capaz de atuar em potências relativamente altas, já que, ele deve filtrar sinais de alto potência fora da faixa de operação de rádio. Deve ter baixa perda de inserção pois está no início do circuito, o que representa uma atenuação maior no sinal resultante. Além disso não precisa ser extremamente seletivo porque ocorrerá ainda uma segunda filtragem, sua principal função é retirar sinais de alta potência que não são de interesse a fim de evitar a saturação dos componentes posteriores do circuito (blocos de ganho, atenuadores, mixers etc).
 
-![Circuito do Primeiro Filtro](WideBandFilter_circuit.PNG)
+![Circuito do Primeiro Filtro](wideBandFilter_circuit.PNG)
 
-![Circuito do Primeiro Filtro](WideBandFilter_plot.png)
+![Plot Primeiro Filtro](wideBandFilter_plot.png)
+
+![Plot Primeiro Filtro](wideBandFilter_plot2.png)
 
 ### Segundo filtro
 
