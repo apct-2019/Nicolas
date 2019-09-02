@@ -33,10 +33,10 @@ Filtro passivo, do tipo chebyshev. Este filtro foi escolhido como passivo pois d
 
 ## Segundo filtro
 
-Filtro ativo, já que a potência de entrada é controlada pelo resto do circuito. Com alta seletividade, centrado em 455KHz. Haverá uma chave de RF para alternar entre os filtros, definindo assim a largura do canal. O ativo abaixo foi escolhido pois atende as nossas especificações, é pequeno e não necessita de circuito externo
+Filtro cerâmico, já que a potência de entrada é controlada pelo resto do circuito. Com alta seletividade, centrado em 455KHz. Haverá uma chave de RF para alternar entre os filtros, definindo assim a largura do canal. O filtro abaixo foi escolhido pois atende as nossas especificações, é pequeno e não necessita de circuito externo nem alimentação.
 
-![Filtros escolhidos](activefilterdatasheet.PNG)
+![Filtros escolhidos](filterdatasheet.PNG)
 
-![Resposta em freqência dos filtros](activefilter.PNG)
+![Resposta em freqência dos filtros](filter.PNG)
 
 ![Pin Out do componente](pinout.PNG)
