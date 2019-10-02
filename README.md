@@ -18,18 +18,29 @@ Objetivo desses filtros é:
 
 Filtro passivo, do tipo chebyshev. Este filtro foi escolhido como passivo pois deve ser capaz de atuar em potências relativamente altas, já que, ele deve filtrar sinais de alto potência fora da faixa de operação de rádio. Deve ter baixa perda de inserção pois está no início do circuito, o que representa uma atenuação maior no sinal resultante. Além disso não precisa ser extremamente seletivo porque ocorrerá ainda uma segunda filtragem, sua principal função é retirar sinais de alta potência que não são de interesse a fim de evitar a saturação dos componentes posteriores do circuito (blocos de ganho, atenuadores, mixers etc).
 
+### Filtro Teórico com valores comerciais
+
 ![Circuito do Primeiro Filtro](wideBandFilter_circuit.PNG)
 
 ![Plot Primeiro Filtro](wideBandFilter_plot.png)
 
 ![Plot Primeiro Filtro](wideBandFilter_plot2.png)
 
-#### Componentes do filtro:
+#### Componentes do filtro real:
 
-- 2 INDUTORES FIXOS CER 0805 18nH 2% 0,6A COILCRAFT 0805CS-180
-- INDUTOR FIXO CER 0805 270nH 5% 0,35A COILCRAFT 0805CS-271XJL
-- 2 CAPACITORES CER 0402 100PF 50V 1% GRM1555C1H101FA01D
-- CAPACITOR CER 0805 6,2pF 250V C0G ±0,1pF 600F6R2BT250XT
+- GRM1555C1H6R2DZ01D
+- GRM1555C1H101JA01D
+- LQG15HSR27J02D
+- LQG15HS18NJ02D
+
+### Simulação do filtro utilizando componentes reais
+
+Utilizando os modelos reais dos componentes, o filtro foi simulado no AWR.
+
+![Circuito do Primeiro Filtro](filtroEntradaSch.PNG)
+
+![Plot do Primeiro Filtro](filtroEntradaGraph.PNG)
+
 
 ## Segundo filtro
 
