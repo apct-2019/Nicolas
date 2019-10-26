@@ -51,3 +51,16 @@ Filtro cerâmico, já que a potência de entrada é controlada pelo resto do cir
 ![Resposta em freqência dos filtros](filter.PNG)
 
 ![Pin Out do componente](pinout.PNG)
+
+### Simulação do segundo filtro no AWR
+
+Para simular o segundo filtro, foi escolhido um filtro elíptico ideal com as mesmos parâmetros do filtro real. Foi escolhido o tipo elíptico devido a semelhança com a resposta. Os filtro se encontram nesse repositório e serão utilizados na simulação do bloco de recepção como um todo.
+
+Filtro para largura de canal de 7,5kHz com espaçamento de 25kHz.
+
+![canal longo](filtro_25k.png)
+
+Filtro para largura de canal de 3kHz com espaçamento de 8,33kHz.
+
+![canal curto](filtro_9k.png)
+
