@@ -54,7 +54,7 @@ Filtro cerâmico, já que a potência de entrada é controlada pelo resto do cir
 
 ### Simulação do segundo filtro no AWR
 
-Para simular o segundo filtro, foi escolhido um filtro elíptico ideal com as mesmos parâmetros do filtro real. Foi escolhido o tipo elíptico devido a semelhança com a resposta. Os filtro se encontram nesse repositório e serão utilizados na simulação do bloco de recepção como um todo.
+Para simular o segundo filtro, foi escolhido um filtro elíptico ideal com as mesmos parâmetros do filtro real. Foi escolhido o tipo elíptico devido a semelhança com a resposta. Os filtro se encontram nesse repositório e serão utilizados na simulação do bloco de recepção como um todo. Pode-se destacar a utilização de mais um filtro passivo de baixo consumo e fácil implementação.
 
 Filtro para largura de canal de 7,5kHz com espaçamento de 25kHz.
 
