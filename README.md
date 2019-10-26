@@ -58,9 +58,9 @@ Para simular o segundo filtro, foi escolhido um filtro elíptico ideal com as me
 
 Filtro para largura de canal de 7,5kHz com espaçamento de 25kHz.
 
-![canal longo](filtro_25k.png)
+![canal longo](filtro_25k.PNG)
 
 Filtro para largura de canal de 3kHz com espaçamento de 8,33kHz.
 
-![canal curto](filtro_9k.png)
+![canal curto](filtro_9k.PNG)
 
